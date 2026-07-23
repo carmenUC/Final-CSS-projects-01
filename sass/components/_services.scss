@@ -1,0 +1,44 @@
+
+.services {
+    margin-top: 24px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    width: 600px;
+    
+    .container {
+        display: inline-flex;
+        gap: 60px;
+        justify-content: space-between;
+        
+    }
+
+    &__item {
+        text-align: center;
+        bottom: 0px;
+
+        
+        img {
+            width: 30%;
+        }
+    }
+
+    &__number {
+        color: $dark-blue;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 24px;
+
+    }
+
+    &__content {
+        color: $grey;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        width: 145px;
+        margin-top: 16px;
+    }
+
+}

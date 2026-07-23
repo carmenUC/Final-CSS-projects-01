@@ -1,0 +1,13 @@
+html {
+    font-family: $poppins;
+    padding-top: 33px;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul {
+    @include reset-list() 
+}
