@@ -1,37 +1,35 @@
+
 .review {
-    background-color: rgba(255, 255, 255, 0.543);
+    width: 360px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.343);
+    border-radius: 14px;
+    padding: 24px;
     position: absolute;
-    
-    &__item {
-        display: flex;
-        flex-direction: column;
-        padding: 24px;
-        gap: 8px;
-        background-color: white;
-        position: absolute;
-    
-        &--1{
-            border-radius: 16px;
-            width: 405px;
-            height: 247px;
-            top: 1000px;
-            right: 100px;
-            padding: 24px;
+    backdrop-filter: blur(5px);
 
-        }
-
-        &--2 {
-            border-radius: 16px;
-            width: 405px;
-            height: 247px;
-            top: 100px;
-            right: 10px;
+    &__content {
+        color: black;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
     
-        }
     }
 
     &__name {
         color: $dark-blue;
-        font-weight: 500;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    &--1 {
+        top: 370px;
+        right: 25px
+
+    }
+
+    &--2 {
+        top: 600px;
+        right: 200px;
     }
 }

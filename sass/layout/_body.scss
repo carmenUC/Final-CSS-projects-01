@@ -10,8 +10,8 @@ body::before {
     background: linear-gradient(
         to right,
         $background 0%,
-        $background 68%,
-        $light-cyan 68%,
+        $background 60%,
+        $light-cyan 60%,
         $light-cyan 100%
     );
 
@@ -45,8 +45,8 @@ body::before {
 
 .background-image {
     position: absolute;
-    bottom: 00px;
-    right: 100px;
+    bottom: 0px;
+    right: 200px;
 
     width: 1000px;
     z-index: 0;
