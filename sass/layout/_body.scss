@@ -55,6 +55,7 @@ body::before {
 
     width: 1000px;
     z-index: 0;
+    pointer-events: none;
 
     img {
         width: 115%;
