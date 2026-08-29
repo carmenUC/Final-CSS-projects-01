@@ -38,12 +38,6 @@ body::before {
         width: 100%;
         height: 100%;
 
-        background-image: url("../../img/Vector.png");
-        background-repeat: no-repeat;
-        background-position: 900px 100px;
-        background-size: 25%;
-        opacity: 0.1;
-
         z-index: -1;
 
     }
@@ -61,4 +55,13 @@ body::before {
         width: 115%;
         display: block;
     }
+}
+
+.vector-image {
+    position: abosolute;
+    left: 900px;
+    bottom: 100px;
+    width: 25%;
+    opacity: 0.1;
+    z-index: 1
 }
