@@ -11,7 +11,6 @@
     &__logo {
         img {
             width: 180px;
-            z-index: 1;
         }
     }
 
@@ -21,7 +20,6 @@
             color: $dark-blue;
             font-size: 16px;
         }
-
     }
 
     &__menu {
@@ -30,7 +28,6 @@
         justify-content: space-between;
         align-items: center;
         gap: 30px;
-        
     }
 
 
@@ -40,8 +37,6 @@
         font-size: 16px;
          &--search {
             margin-right: 32px;
-
-            
          }
 
          &--signin {
@@ -76,6 +71,9 @@
     &__menu {
         display: none;
         position: absolute;
+        li {
+            width: 90px;
+        }
     }
 
     &:hover {
